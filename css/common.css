@@ -1,0 +1,33 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --title-text-color: #ffffff;
+  --accent-color: #2196f3;
+}
+body {
+  background-color: #fff;
+  color: #2a2a2a;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Site nav */
+.site-nav .link,
+.contacts-link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .contacts-link:hover,
+.site-nav .contacts-link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
