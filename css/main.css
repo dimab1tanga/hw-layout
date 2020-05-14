@@ -8,8 +8,7 @@ body {
   background-color: #fff;
   color: #2a2a2a;
   font-family: roboto, sans-serif;
-  font-style: normal;
-  text-decoration: none;
+  letter-spacing: 0.03em;
 }
 
 ul {
@@ -20,8 +19,8 @@ ul {
   color: var(--accent-color);
   font-family: Raleway, cursive;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
+  text-decoration: none;
 }
 .studio {
   color: var(--primary-text-color);
@@ -40,6 +39,10 @@ ul {
 .site-nav .link,
 .contacts-link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -61,30 +64,70 @@ ul {
 }
 .hero-title {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
 }
 .order-service {
   background-color: #2196f3;
   color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-decoration: none;
 }
 
 /* Features */
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
 .features-description {
   color: #757575;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* Work */
+.activity-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
 .work-title {
   background-color: rgba(47, 48, 58, 0.8);
   color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 /* Team */
 .team {
   background-color: #f5f4fa;
 }
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.name-player {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
 .team-players {
   background-color: #ffffff;
   color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
 }
 .player-links {
   background-color: #ffffff;
@@ -93,18 +136,37 @@ ul {
 .player-links .link:focus {
   color: var(--accent-color);
 }
+.link {
+  text-decoration: none;
+}
+
 /* Clients */
+.client-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
 .client-links .link:hover,
 .client-links .link:focus {
   color: var(--accent-color);
 }
 
 /* Footer */
+.logo-footer {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.19;
+}
 .location {
   color: var(--primary-text-color);
+  font-style: normal;
+  text-decoration: none;
 }
 .contacts {
   color: var(--primary-text-color);
+  font-style: normal;
+  text-decoration: none;
 }
 .social-links .link:hover,
 .social-links .link:focus {
@@ -113,6 +175,13 @@ ul {
 .sign-up {
   background-color: #2196f3;
   color: #ffffff;
+  text-decoration: none;
+}
+.goit {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
 }
 
 /* Button */

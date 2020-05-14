@@ -7,14 +7,16 @@
 body {
   background-color: #fff;
   color: #2a2a2a;
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  text-decoration: none;
 }
 
 .logo {
   color: var(--accent-color);
   font-family: Raleway, cursive;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
 }
 .studio {
   color: var(--primary-text-color);
@@ -28,6 +30,9 @@ ul {
 .site-nav .link,
 .contacts-link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .site-nav .link:hover,
@@ -41,4 +46,33 @@ ul {
 }
 .site-nav .link.current {
   color: var(--accent-color);
+}
+
+/* Footer */
+.location {
+  color: var(--primary-text-color);
+  font-style: normal;
+  text-decoration: none;
+}
+
+.contacts {
+  color: var(--primary-text-color);
+  font-style: normal;
+  text-decoration: none;
+}
+
+.social-links .link:hover,
+.social-links .link:focus {
+  color: var(--accent-color);
+}
+
+.sign-up {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+/* Button */
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-bg-color);
 }
