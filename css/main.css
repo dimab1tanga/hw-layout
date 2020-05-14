@@ -8,10 +8,23 @@ body {
   background-color: #fff;
   color: #2a2a2a;
   font-family: roboto, sans-serif;
+  font-style: normal;
+  text-decoration: none;
 }
 
 ul {
   list-style: none;
+}
+
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.studio {
+  color: var(--primary-text-color);
 }
 
 /* колір основного тексту #212121 */
@@ -88,12 +101,10 @@ ul {
 
 /* Footer */
 .location {
-  background-color: #2f303a;
-  color: #ffffff;
+  color: var(--primary-text-color);
 }
 .contacts {
-  background-color: #2f303a;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--primary-text-color);
 }
 .social-links .link:hover,
 .social-links .link:focus {

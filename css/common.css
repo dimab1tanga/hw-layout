@@ -9,6 +9,17 @@ body {
   color: #2a2a2a;
 }
 
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.studio {
+  color: var(--primary-text-color);
+}
+
 ul {
   list-style: none;
 }
