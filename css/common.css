@@ -3,13 +3,22 @@
   --secondary-text-color: #757575;
   --title-text-color: #ffffff;
   --accent-color: #2196f3;
+  --primary-bgd-color: #e5e5e5;
+  --secondary-bgd-color: #ffffff;
 }
 body {
-  background-color: #fff;
+  background-color: var(--primary-bgd-color);
   color: #2a2a2a;
   font-family: roboto, sans-serif;
-  font-style: normal;
-  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+
+.head {
+  background-color: var(--secondary-bgd-color);
+}
+
+ul {
+  list-style: none;
 }
 
 .logo {
@@ -17,13 +26,10 @@ body {
   font-family: Raleway, cursive;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 .studio {
   color: var(--primary-text-color);
-}
-
-ul {
-  list-style: none;
 }
 
 /* Site nav */
@@ -33,6 +39,7 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -48,27 +55,43 @@ ul {
   color: var(--accent-color);
 }
 
+.link {
+  text-decoration: none;
+}
+
 /* Footer */
+.footer {
+  background-color: var(--secondary-bgd-color);
+}
+.logo-footer {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.19;
+}
 .location {
   color: var(--primary-text-color);
   font-style: normal;
   text-decoration: none;
 }
-
 .contacts {
   color: var(--primary-text-color);
   font-style: normal;
   text-decoration: none;
 }
-
 .social-links .link:hover,
 .social-links .link:focus {
   color: var(--accent-color);
 }
-
 .sign-up {
   background-color: #2196f3;
   color: #ffffff;
+  text-decoration: none;
+}
+.goit {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
 }
 
 /* Button */

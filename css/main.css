@@ -3,12 +3,18 @@
   --secondary-text-color: #757575;
   --title-text-color: #ffffff;
   --accent-color: #2196f3;
+  --primary-bgd-color: #e5e5e5;
+  --secondary-bgd-color: #ffffff;
 }
 body {
-  background-color: #fff;
+  background-color: var(--primary-bgd-color);
   color: #2a2a2a;
   font-family: roboto, sans-serif;
   letter-spacing: 0.03em;
+}
+
+.head {
+  background-color: var(--secondary-bgd-color);
 }
 
 ul {

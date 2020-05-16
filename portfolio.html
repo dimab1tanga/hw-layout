@@ -14,7 +14,7 @@
 
   <body>
     <!--Шапка сайта-->
-    <header>
+    <header class="head">
       <nav>
         <a href="./index.html" class="logo"
           >Web <span class="studio">Studio</span></a
@@ -33,7 +33,7 @@
       </nav>
     </header>
     <h1>Контент сторінки Портфоліо</h1>
-    <div>
+    <div class="button-nav">
       <button type="button">Все</button>
       <button type="button">Веб-сайты</button>
       <button type="button">Приложения</button>
@@ -162,18 +162,21 @@
       </section>
     </main>
     <!--Футер-->
-    <footer>
+    <footer class="footer">
       <div>
-        <a href=""
-          ><img src="./images/WebStudio.svg" alt="Логотип компании"
-        /></a>
+        <span class="logo-footer"
+          ><a href="./index.html" class="logo"
+            >Web <span class="studio">Studio</span></a
+          ></span
+        >
         <address class="location">
           г. Киев,<br />
           пр-т Леси Украинки, 26
         </address>
-        <address class="contacts-box">
-          <a href="mailto:info@example.com">info@example.com</a><br />
-          <a href="tel:380991111111">+38 099 111 11 11</a>
+        <address>
+          <a href="mailto:info@example.com" class="contacts">info@example.com</a
+          ><br />
+          <a href="tel:380991111111" class="contacts">+38 099 111 11 11</a>
         </address>
       </div>
       <div>
@@ -197,7 +200,8 @@
       </div>
       <div>
         <b>ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
-        <a href="">Подписаться</a>
+        <a href="" class="sign-up">Подписаться</a>
+        <p class="goit">2020 | Developed by GoIT Students</p>
       </div>
     </footer>
   </body>
